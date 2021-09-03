@@ -1,0 +1,172 @@
+/*usual module */
+* {
+	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
+} 
+body {
+    margin : 0px;
+    font-family:"Noto Sans", "Noto Sans CJK JP", sans-serif;
+    
+}
+
+.thema{
+    color : #fc3b21;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin : 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.button{
+    font-size: 1.375rem;
+    color: #fff;
+    border-radius: 50px;
+    padding: 18px 32px;
+}
+
+.h2-text{
+    font-size: 288px;
+    line-height: 84px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.h3-text{
+    font-size: 72px;
+    line-height: 84px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.h4-text{
+    font-size: 48px;
+    line-height: 56px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+/*header 部分*/
+header {
+    background-color: #FFFFFF;
+    display : flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    justify-content: flex-end;
+}
+
+
+header > .logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+/*message-wrapper*/
+.message-wrapper{
+    display: block;
+    width : 100%;
+    min-height: 100vh;
+    background: url("./images/cyber-2377718_1920.jpg") center center no-repeat;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    background-size: cover;
+}
+
+.message-wrapper > .message{
+    color: #000;
+}
+
+.message-wrapper > .message-tate{
+    display: block;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+}
+
+/*content*/
+.content {
+    display: block;
+    margin:auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size : 24px;
+}
+
+.content-wrapper{
+    background-color:#fff;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.big-content{
+    font-size: 40px;
+    text-align: center;
+}
+
+.content-title {
+    text-align: center;
+    border-bottom: #000 20px;
+    font-size: 30px;
+}
+
+.content-URL {
+    position : relative;
+    display: inline-block;
+    padding: 0 0 0 16px;
+    color: #000;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/*img*/
+.self-photo {
+    width: 100%;
+    height:100%;
+    grid-row: 1 / 10 ;
+}
+
+
+/*index.html*/
+.index-main{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: block;
+    overflow: auto;
+    scroll-snap-type: y proximity;
+    height: 100vh;
+}
+
+
+
+.index-main > .message-yoko{
+    margin : auto;
+    display: block;
+
+}
+
+.index-main > .message-button{
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.area {
+    scroll-snap-align: start;
+}
